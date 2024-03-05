@@ -4,3 +4,4 @@ https://github.com/maryito/Analisis-lexico-sintactico-Python/blob/master/README.
 https://www.youtube.com/watch?v=GeIs2YZRbjw&ab_channel=OscarJu%C3%A1rez
 https://www.youtube.com/watch?v=gWrmCOTrtrs&ab_channel=SebastianArdila
 https://openwebinars.net/blog/introduccion-a-java-datos-y-variables/#:~:text=Para%20declarar%20una%20variable%20en,como%20en%20number%20%3D%2042%3B.
+https://www.dabeaz.com/ply/ply.html#ply_nn4

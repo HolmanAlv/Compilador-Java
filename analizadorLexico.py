@@ -23,6 +23,13 @@ identifier = { 'a' : 'id', 'b' : 'id', 'c' : 'id' , 'd' : 'id' }
 identifier_key = identifier.keys()
 
 
+#Diccionario con los inputs
+inputs = { '.next()' : 'StrInput', '.nextInt()' : 'IntInput'}
+inputs_key = inputs.keys()
+
+#Diccionario con los outputs
+outputs = {'System.out.println' : 'PrintNextLine', 'System.out.print': 'PrintLine' }
+outputs_keys = outputs.keys()
 
 
 count=0
@@ -48,9 +55,10 @@ for line in program:
             print (token, "Punctuation symbol is" , punctuation_symbol[token])
         if token in identifier_key:
             print (token, "Identifier is" , identifier[token])
-
-        
-    print("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _  _") 
+        if token in inputs_key:
+            print(token, "Input is", inputs[token])
+        if token in outputs_keys:
+            print(token, "Output is", outputs[token])
 
 
 
